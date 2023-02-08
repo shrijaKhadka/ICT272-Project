@@ -3,7 +3,7 @@ namespace ICT272.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class CreatingModels : DbMigration
+    public partial class initialMigrations : DbMigration
     {
         public override void Up()
         {

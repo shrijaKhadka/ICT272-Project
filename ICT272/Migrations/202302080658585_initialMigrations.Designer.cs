@@ -7,13 +7,13 @@ namespace ICT272.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class CreatingModels : IMigrationMetadata
+    public sealed partial class initialMigrations : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CreatingModels));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initialMigrations));
         
         string IMigrationMetadata.Id
         {
-            get { return "202302080341591_CreatingModels"; }
+            get { return "202302080658585_initialMigrations"; }
         }
         
         string IMigrationMetadata.Source
